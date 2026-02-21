@@ -37,7 +37,7 @@ export default function Newsletter() {
             type="submit"
             className="bg-sky-400 hover:bg-sky-300 text-sky-900 font-bold px-7 py-4 rounded-full transition-colors whitespace-nowrap"
           >
-            Subscribe Free
+            Subscribe
           </button>
         </form>
 
