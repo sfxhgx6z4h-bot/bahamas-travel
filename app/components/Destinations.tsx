@@ -20,7 +20,7 @@ const destinations = [
     img: "https://images.unsplash.com/photo-1487251918058-8c9ee71607dd?q=80&w=642&auto=format&fit=crop",
     highlight: "Wildlife",
     backImg:
-      "https://images.unsplash.com/photo-1583425423600-b1d4775d4a58?w=800&q=80",
+      "https://images.unsplash.com/photo-1541689221361-ad95003448dc?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZXh1bWElMjBjYXlzfGVufDB8fDB8fHww",
     description:
       "Meet the world-famous swimming pigs at Pig Beach, kayak through emerald sea caves, and discover sandbars that vanish with the tides. The crystal-clear shallows here are unlike anywhere else on earth.",
   },
@@ -50,7 +50,7 @@ const destinations = [
     img: "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=800&q=80",
     highlight: "Nature",
     backImg:
-      "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=800&q=80",
+      "https://images.unsplash.com/photo-1575110396888-6872c2a1bc1a?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZWxldXRoZXJhfGVufDB8fDB8fHww",
     description:
       "Stand at the Glass Window Bridge where the deep Atlantic crashes against the turquoise Caribbean in a jaw-dropping collision of colour. Miles of empty white-sand beach await beyond every bend.",
   },
@@ -60,7 +60,7 @@ const destinations = [
     img: "https://images.unsplash.com/photo-1719958129558-1c94272a9de4?q=80&w=1933&auto=format&fit=crop",
     highlight: "Snorkeling",
     backImg:
-      "https://images.unsplash.com/photo-1535083783855-ded0aecd9c5d?w=800&q=80",
+      "https://plus.unsplash.com/premium_photo-1666497934040-ec832d302f13?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8R3JhbmQlMjBCYWhhbWF8ZW58MHx8MHx8fDA%3D",
     description:
       "Snorkel the world's third-largest barrier reef and swim through hauntingly beautiful underwater caves in Lucayan National Park, where ancient caverns open directly onto powdery white-sand beaches.",
   },
@@ -159,7 +159,7 @@ export default function Destinations() {
                     {/* Bottom: content */}
                     <div>
                       <h3 className="text-xl font-bold mb-2">{d.name}</h3>
-                      <p className="text-gray-200 text-sm leading-relaxed overflow-y-auto max-h-24 pr-1 scrollbar-thin">
+                      <p className="text-gray-200 text-sm leading-relaxed overflow-y-auto max-h-24 pr-4 scrollbar-thin">
                         {d.description}
                       </p>
                       <a

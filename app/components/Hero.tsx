@@ -16,7 +16,7 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 text-center text-white px-6 max-w-4xl mx-auto">
-        <p className="uppercase tracking-[0.3em] text-sky-300 text-sm font-semibold mb-4">
+        <p className="uppercase tracking-[0.3em] text-white text-sm font-semibold mb-4 drop-shadow-lg [text-shadow:0_2px_8px_rgba(0,0,0,0.8)]">
           Your Dream Getaway Awaits
         </p>
         <h1 className="text-5xl md:text-7xl font-extrabold leading-tight mb-6 drop-shadow-lg">
@@ -27,10 +27,10 @@ export default function Hero() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="#packages"
+            href="tel:2679389705"
             className="bg-sky-500 hover:bg-sky-600 text-white font-bold px-8 py-4 rounded-full text-lg transition-all hover:scale-105 shadow-lg"
           >
-            Explore Packages
+            Call to book now
           </a>
           <a
             href="#destinations"

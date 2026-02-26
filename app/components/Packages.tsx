@@ -43,7 +43,7 @@ export default function Packages() {
             Travel Packages
           </h2>
           <p className="mt-4 text-gray-500 max-w-xl mx-auto">
-            All-inclusive packages designed so you can relax from the moment you arrive.
+            All-inclusive packages designed so you can relax from the moment you&nbsp;arrive.
           </p>
         </div>
 
@@ -77,15 +77,10 @@ export default function Packages() {
                   ))}
                 </ul>
 
-                <div className="mt-6 flex items-center justify-between">
-                  <div>
-                    <p className="text-xs text-gray-400">From</p>
-                    <p className="text-3xl font-extrabold text-gray-900">{pkg.price}</p>
-                    <p className="text-xs text-gray-400">per person</p>
-                  </div>
-                  <button className="bg-sky-500 hover:bg-sky-600 text-white font-bold px-5 py-3 rounded-full transition-colors">
-                    Book Now
-                  </button>
+                <div className="mt-6">
+                  <a href="tel:2679389705" className="block w-full text-center bg-sky-500 hover:bg-sky-600 text-white font-bold px-5 py-3 rounded-full transition-colors">
+                    Call to book now
+                  </a>
                 </div>
               </div>
             </div>

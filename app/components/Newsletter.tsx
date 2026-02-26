@@ -30,19 +30,19 @@ export default function Newsletter() {
         >
           <input
             type="email"
-            placeholder="Enter your email address"
+            placeholder="Your email"
             className="flex-1 px-5 py-4 rounded-full bg-sky-400 text-sky-900 placeholder-sky-700 font-bold focus:outline-none focus:ring-2 focus:ring-sky-300 text-sm"
           />
           <button
             type="submit"
-            className="bg-sky-400 hover:bg-sky-300 text-sky-900 font-bold px-7 py-4 rounded-full transition-colors whitespace-nowrap"
+            className="bg-sky-400 hover:bg-sky-300 text-sky-900 font-bold px-7 py-4 rounded-full transition-colors whitespace-nowrap text-sm"
           >
             Subscribe
           </button>
         </form>
 
         <p className="mt-5 text-sky-300 text-xs">
-          Join 24,000+ travelers already subscribed. Unsubscribe anytime.
+          Join 24,000+ travelers already subscribed. <a href="#" className="underline hover:text-sky-100 transition-colors">Unsubscribe anytime.</a>
         </p>
       </div>
     </section>

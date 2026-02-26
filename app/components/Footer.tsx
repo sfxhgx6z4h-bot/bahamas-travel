@@ -10,10 +10,10 @@ export default function Footer() {
     <footer className="bg-gray-950 text-gray-400 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-6">
         {/* Top */}
-        <div className="grid md:grid-cols-5 gap-16 pb-12 border-b border-gray-800">
+        <div className="grid md:grid-cols-6 gap-16 pb-12 border-b border-gray-800">
           {/* Brand */}
-          <div className="md:col-span-1 md:pr-10">
-            <p className="text-2xl font-bold text-white mb-4 tracking-tight whitespace-nowrap">🐚 BahamasEscape</p>
+          <div className="md:col-span-2 md:pr-10">
+            <p className="text-2xl font-bold text-white mb-4 tracking-tight whitespace-nowrap flex items-center gap-2"><img src="https://cdn-icons-png.flaticon.com/128/3054/3054857.png" alt="shell" className="w-7 h-7" />BahamasEscape</p>
             <p className="text-sm leading-relaxed">
               Your trusted gateway to the world&apos;s most beautiful archipelago since 2009.
             </p>

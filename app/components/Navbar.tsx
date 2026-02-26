@@ -22,32 +22,32 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-16">
         {/* Logo */}
         <a href="#" className={`text-2xl font-bold tracking-tight ${scrolled ? "text-sky-600" : "text-white"}`}>
-          🐚 BahamasEscape
+          <img src="https://cdn-icons-png.flaticon.com/128/3054/3054857.png" alt="shell" className="inline-block w-8 h-8 mr-1.5 align-middle" />BahamasEscape
         </a>
 
-        {/* Desktop links */}
-        <ul className="hidden md:flex gap-8">
-          {links.map((l) => (
-            <li key={l}>
-              <a
-                href={`#${l.toLowerCase().replace(" ", "-")}`}
-                className={`text-sm font-medium hover:text-sky-400 transition-colors ${
-                  scrolled ? "text-gray-700" : "text-white"
-                }`}
-              >
-                {l}
-              </a>
-            </li>
-          ))}
-        </ul>
-
-        {/* CTA */}
-        <a
-          href="#packages"
-          className="hidden md:inline-block bg-sky-500 hover:bg-sky-600 text-white text-sm font-semibold px-5 py-2 rounded-full transition-colors"
-        >
-          Book Now
-        </a>
+        {/* Desktop links + CTA */}
+        <div className="hidden md:flex items-center gap-8">
+          <ul className="flex gap-8">
+            {links.map((l) => (
+              <li key={l}>
+                <a
+                  href={`#${l.toLowerCase().replace(" ", "-")}`}
+                  className={`text-sm font-medium hover:text-sky-400 transition-colors ${
+                    scrolled ? "text-gray-700" : "text-white"
+                  }`}
+                >
+                  {l}
+                </a>
+              </li>
+            ))}
+          </ul>
+          <a
+            href="#packages"
+            className="bg-sky-500 hover:bg-sky-600 text-white text-sm font-semibold px-5 py-2 rounded-full transition-colors"
+          >
+            Book Now
+          </a>
+        </div>
 
         {/* Mobile burger */}
         <button
